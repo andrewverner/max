@@ -92,3 +92,14 @@ a.desc:after {
     font-weight: 400;
     font-style: normal;
 }
+
+
+/*<weight>: Use a value from 300 to 700
+<uniquifier>: Use a unique and descriptive class name*/
+
+.cormorant-infant {
+   font-family: "Cormorant Infant", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+}

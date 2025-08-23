@@ -12,10 +12,10 @@ $this->title = 'Главная';
             <?php endfor; ?>
         </ul>
     </div>
-    <div class="col-md-11 d-flex flex-column align-items-center text-center gap-1">
+    <div class="col-md-11 d-flex flex-column align-items-center text-center gap-1 cormorant-infant">
 
         <div class="image-placeholder bg-light w-100" style="height: 400px; background-image: url(images/main.jpg); background-size: contain; background-repeat: no-repeat; background-position: center center"></div>
-        <div style="text-align: left" class="pochaevsk-regular">
+        <div style="text-align: left">
             <p>Серафимо-Дивеевская обитель — это святое место, избранное Богом и Пресвятой Богородицей. Здесь, у мощей преподобного Серафима Саровского, каждый паломник находит утешение, покой и молитвенное укрепление.</p>
             <p>Обитель основана в XVIII веке трудами праведных стариц и по особому завету преподобного Серафима стала «четвёртым уделом Богородицы» — местом, где Небесная Царица Самовластно обитает и охраняет Своих чад.</p>
             <p>Сегодня сестры монастыря с любовью и молитвой продолжают традиции духовной жизни, несут послушания, трудятся во славу Божию и принимают всех, кто ищет света Христова.</p>
