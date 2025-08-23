@@ -12,7 +12,7 @@ $this->title = 'Главная';
             <?php endfor; ?>
         </ul>
     </div>
-    <div class="col-md-11 d-flex flex-column align-items-center text-center gap-1 cormorant-infant">
+    <div class="col-md-11 d-flex flex-column align-items-center text-center gap-1 cormorant-infant" style="font-size: 15pt">
 
         <div class="image-placeholder bg-light w-100" style="height: 400px; background-image: url(images/main.jpg); background-size: contain; background-repeat: no-repeat; background-position: center center"></div>
         <div style="text-align: left">
