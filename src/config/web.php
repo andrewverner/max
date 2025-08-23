@@ -1,5 +1,7 @@
 <?php
 
+use yii\web\View;
+
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
@@ -39,6 +41,15 @@ $config = [
                 [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
+                ],
+            ],
+        ],
+        'view' => [
+            'class' => View::class,
+            'params' => [
+                'breadcrumbsHome' => [
+                    'label' => 'Назад',
+                    'url' => '/',
                 ],
             ],
         ],

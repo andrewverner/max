@@ -7,9 +7,29 @@ $this->title = 'Главная';
 <div class="row">
     <div class="col-md-1 d-none d-md-block">
         <ul class="list-unstyled">
-            <?php for ($year = 1828; $year <= 1840; $year++): ?>
-                <li><a class="btn btn-secondary"><?= $year ?></a></li>
-            <?php endfor; ?>
+            <li><a class="btn btn-secondary">1828</a></li>
+            <li><a class="btn btn-secondary">1839</a></li>
+            <li><a class="btn btn-secondary">1848</a></li>
+            <li><a class="btn btn-secondary">1858</a></li>
+            <li><a class="btn btn-secondary">1860</a></li>
+            <li><a class="btn btn-secondary">1869</a></li>
+            <li><a class="btn btn-secondary">1870</a></li>
+            <li><a class="btn btn-secondary">1871</a></li>
+            <li><a class="btn btn-secondary">1876</a></li>
+            <li><a class="btn btn-secondary">1881</a></li>
+            <li><a class="btn btn-secondary">1891</a></li>
+            <li><a class="btn btn-secondary">1892</a></li>
+            <li><a class="btn btn-secondary">1893</a></li>
+            <li><a class="btn btn-secondary">1895</a></li>
+            <li><a class="btn btn-secondary">1896</a></li>
+            <li><a class="btn btn-secondary">1901</a></li>
+            <li><a class="btn btn-secondary">1907</a></li>
+            <li><a class="btn btn-secondary">1908</a></li>
+            <li><a class="btn btn-secondary">1917</a></li>
+            <li><a class="btn btn-secondary">1919</a></li>
+            <li><a class="btn btn-secondary">1921</a></li>
+            <li><a class="btn btn-secondary">1926</a></li>
+            <li><a class="btn btn-secondary">1928</a></li>
         </ul>
     </div>
     <div class="col-md-11 d-flex flex-column align-items-center text-center gap-1 cormorant-infant" style="font-size: 15pt">
@@ -29,8 +49,28 @@ $this->title = 'Главная';
     </div>
     <div class="col-md-11 d-block d-md-none text-center">
         <br />
-        <?php for ($year = 1828; $year <= 1840; $year++): ?>
-            <a class="btn btn-secondary"><?= $year ?></a>
-        <?php endfor; ?>
+        <a class="btn btn-secondary">1828</a>
+        <a class="btn btn-secondary">1839</a>
+        <a class="btn btn-secondary">1848</a>
+        <a class="btn btn-secondary">1858</a>
+        <a class="btn btn-secondary">1860</a>
+        <a class="btn btn-secondary">1869</a>
+        <a class="btn btn-secondary">1870</a>
+        <a class="btn btn-secondary">1871</a>
+        <a class="btn btn-secondary">1876</a>
+        <a class="btn btn-secondary">1881</a>
+        <a class="btn btn-secondary">1891</a>
+        <a class="btn btn-secondary">1892</a>
+        <a class="btn btn-secondary">1893</a>
+        <a class="btn btn-secondary">1895</a>
+        <a class="btn btn-secondary">1896</a>
+        <a class="btn btn-secondary">1901</a>
+        <a class="btn btn-secondary">1907</a>
+        <a class="btn btn-secondary">1908</a>
+        <a class="btn btn-secondary">1917</a>
+        <a class="btn btn-secondary">1919</a>
+        <a class="btn btn-secondary">1921</a>
+        <a class="btn btn-secondary">1926</a>
+        <a class="btn btn-secondary">1928</a>
     </div>
 </div>
