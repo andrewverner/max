@@ -2,52 +2,30 @@
 
 /** @var yii\web\View $this */
 
-$this->title = 'My Yii Application';
+$this->title = 'Главная';
 ?>
-<div class="site-index">
-
-    <div class="jumbotron text-center bg-transparent mt-5 mb-5">
-        <h1 class="display-4">Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="https://www.yiiframework.com">Get started with Yii</a></p>
+<div class="row">
+    <div class="col-md-1">
+        <ul class="list-unstyled">
+            <?php for ($year = 1828; $year <= 1840; $year++): ?>
+                <li><a class="btn btn-secondary"><?= $year ?></a></li>
+            <?php endfor; ?>
+        </ul>
     </div>
+    <div class="col-md-11 d-flex flex-column align-items-center text-center gap-1">
 
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4 mb-3">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4 mb-3">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-outline-secondary" href="https://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
+        <div class="image-placeholder bg-light w-100" style="height: 400px; background-image: url(images/main.jpg); background-size: contain; background-repeat: no-repeat; background-position: center center"></div>
+        <div style="text-align: left" class="pochaevsk-regular">
+            <p>Серафимо-Дивеевская обитель — это святое место, избранное Богом и Пресвятой Богородицей. Здесь, у мощей преподобного Серафима Саровского, каждый паломник находит утешение, покой и молитвенное укрепление.</p>
+            <p>Обитель основана в XVIII веке трудами праведных стариц и по особому завету преподобного Серафима стала «четвёртым уделом Богородицы» — местом, где Небесная Царица Самовластно обитает и охраняет Своих чад.</p>
+            <p>Сегодня сестры монастыря с любовью и молитвой продолжают традиции духовной жизни, несут послушания, трудятся во славу Божию и принимают всех, кто ищет света Христова.</p>
+            <p>Мы приглашаем вас к участию в богослужениях, к поклонению святыням обители, к жизни в духе православной веры. Пусть этот уголок земли станет для вас местом встречи с вечностью, тишиной и милосердием.</p>
         </div>
-
+        <form action="#" method="get" style="max-width: 400px; width: 100%;">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Поиск">
+                <button class="btn btn-primary" type="submit">Поиск</button>
+            </div>
+        </form>
     </div>
 </div>

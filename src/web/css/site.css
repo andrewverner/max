@@ -86,3 +86,9 @@ a.desc:after {
 .form-group {
     margin-bottom: 1rem;
 }
+
+.pochaevsk-regular {
+    font-family: "Pochaevsk", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
