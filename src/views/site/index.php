@@ -5,7 +5,7 @@
 $this->title = 'Главная';
 ?>
 <div class="row">
-    <div class="col-md-1 d-none d-lg-block">
+    <div class="col-md-1 d-none d-md-block">
         <ul class="list-unstyled">
             <?php for ($year = 1828; $year <= 1840; $year++): ?>
                 <li><a class="btn btn-secondary"><?= $year ?></a></li>
@@ -26,5 +26,11 @@ $this->title = 'Главная';
                 <button class="btn btn-primary" type="submit">Поиск</button>
             </div>
         </form>
+    </div>
+    <div class="col-md-11 d-block d-md-none text-center">
+        <br />
+        <?php for ($year = 1828; $year <= 1840; $year++): ?>
+            <a class="btn btn-secondary"><?= $year ?></a>
+        <?php endfor; ?>
     </div>
 </div>
